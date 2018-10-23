@@ -24,5 +24,13 @@ fields:
   label: layout
   hidden: true
   default: post
+- type: textarea
+  name: label
+  label: Label
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
 pages:
 - test.md
